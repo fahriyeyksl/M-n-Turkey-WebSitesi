@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Türkiye</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/swiper-bundle.min.css">
+  </head>
+<body>
+    <!--
+    NAVBAR
+    -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3 d-flex justify-content-between ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="anasayfa/index.html">
+            <img class="img-navbar" src="https://www.mini.com.tr/etc.clientlibs/settings/wcm/designs/minidigital-white/images/logo/resources/mini-logo.svg" alt="" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent mx-5">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Modeller</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Fiyat Listesi</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Tasarla</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Test sürüşü</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">İkinci el</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Satış sonrası</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#">Mını dünyası</a>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+        <div class="icon">
+          <a href="index.html"><i class="bi bi-geo-alt-fill iconmap mx-3"></i></a>
+        </div>
+      </nav>
+
+      <!--
+        NAVBAR SLİDER 
+      -->
+        
+      <div id="carouselExampleControls" class="carousel slide cexamControls " data-bs-ride="carousel" data-bs-interval="4000">
+        <div class="carousel-inner">
+          <div class="carousel-item carousel-img active" id="slide-0">
+            <img src="assets/slider1.jpg" class="d-block w-100" alt="...">
+           <div class="carousel-item-text">
+              <h3>Yeni <br> mını cooper 3 kapı.</h3>
+              <p>Seni yeniden gormek ne güzel.</p>
+              <button type="button" class="btn btn-light btn1">Daha Fazla Bilgi</button>
+           </div>  
+           <div class="carousel-item-bottom-text">
+            MINI Cooper 3 Kapı: Yakıt Tüketimi (WLTP ortalama): 6,4/100 km ; CO2 Emisyonu (WLTP ortalama): 144 gr/km. Burada gösterilen tüm resimler ve detaylar geçicidir ve yalnızca gösterim amacı taşır.
+          </div>
+        </div>
+          <div class="carousel-item carousel-img" id="slide-1">
+            <img src="assets/slider2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-item-text">
+              <h3>Yeni tamamen elektrikli <br> mını countryman </h3>
+              <p>Maceranın dozunu arttır.</p>
+              <button type="button" class="btn btn-light btn2">Daha Fazla Bilgi Al</button>
+             </div>
+             <div class="carousel-item-bottom-text">
+              Yeni Tamamen Elektrikli MINI Countryman: Elektrik Tüketimi (WLTP ortalama): 18,5 - 16,0 kWsa/100km; CO2 Emisyonu (WLTP ortalama): 0 gr/km; Elektrikli Menzil (WLTP ortalama): 399 – 462 km. Burada gösterilen tüm <br> resimler ve detaylar geçicidir ve yalnızca gösterim amacı taşır. 
+            </div>
+          </div>
+          <div class="carousel-item carousel-img" id="slide-2">
+            <img src="assets/slider3.jpg" class="d-block w-100" alt="...">
+           <div class="carousel-item-text">
+            <h3>Yeni mını <br> countryman</h3>
+            <p>Maceranın dozunu arttır.</p>
+            <button type="button" class="btn btn-light btn2">Daha Fazla Bilgi Al</button>
+           </div>
+           <div class="carousel-item-bottom-text">
+            MINI Countryman: Yakıt Tüketimi (WLTP ortalama): 6,5 – 6,1  l/100 km; CO2 Emisyonu (WLTP ortalama): 147 – 139 gr/km. <br> Burada gösterilen tüm resimler ve detaylar geçicidir ve yalnızca gösterim amacı taşır.
+           </div>
+          </div>
+          <div class="carousel-item carousel-img" id="slide-3">
+            <img src="assets/slider4.jpg" class="d-block w-100" alt="...">
+           <div class="carousel-item-text">
+            <h3>mını ile dilediğin yerde test<br> sürüşü</h3>
+            <button type="button" class="btn btn-light btn2">Randevu Al</button>
+           </div>
+           <div class="carousel-item-bottom-text">
+            MINI Countryman: Yakıt Tüketimi (WLTP ortalama): 6,5 – 6,1  l/100 km; CO2 Emisyonu (WLTP ortalama): 147 – 139 gr/km. <br> Burada gösterilen tüm resimler ve detaylar geçicidir ve yalnızca gösterim amacı taşır.
+           </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev buttoncarousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next buttoncarousel" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <div class="bar">
+            <div class="bar-blue">
+            </div>
+        </div>
+      </div>
+
+
+      <!--
+      SECTİON SLİDER
+      -->
+      <section class="my-5">
+        <div class="swiper swiper__section">
+          <div class="swiper-wrapper swiper__car__wrapper">
+            <div class="swiper-slide box__img">
+                 <img src="assets/araba1.webp" alt="" class="car__img">
+                 <span>Yeni mını cooper 3 kapı</span>
+            </div>
+            <div class="swiper-slide box__img">
+              <img src="assets/araba2.webp" alt="" class="car__img">
+              <img src="assets/altfoto1.png" alt="" class="alt__logo">
+            </div>
+            <div class="swiper-slide box__img">
+              <img src="https://www.mini.com.tr/etc.clientlibs/settings/wcm/designs/minidigital-white/images/logo/resources/electric_signet.svg" alt="" class="elektrik__logo">
+              <img src="assets/araba3.webp" alt="" class="car__img elektrik__car">
+              <span>yeni tamamen elektrikli mını countryman</span>
+            </div>
+            <div class="swiper-slide box__img">
+            <img src="assets/araba3.webp" alt="" class="car__img">
+            <span>yeni mını countryman</span>
+            </div>
+          </div>
+          <div class="swiper-button-prev  buton__section__prev">   
+            <i class="ri-arrow-left-s-line d-none i__car__prev"></i>
+          </div>
+          <div class="swiper-button-next buton__section__next">
+            <i class="ri-arrow-right-s-line i__car__next"></i>
+          </div>
+          <div class="swp__pagination">
+            <div class="swiper-pagination "></div>
+          </div>
+          
+        </div>
+      </section>
+
+      <
+    <!--
+      GÜNCEL HABERLER
+    -->
+      <section class="gh__section">
+          <div class="gh__title">
+            <div class="linear"></div>
+            <span>Güncel</span>
+            <div class="linear"></div>
+          </div>
+          <div class="swiper gh__swiper">
+            
+              <div class="swiper-wrapper gh__slide">
+                
+                  <div class="swiper-slide gh__col__lg">
+                    <img src="assets/g1.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto illum ipsum molestiae odit et dolore veniam, hic rem fugiat asperiores.</p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                    </div>
+                    <div class="swiper-slide gh__col__lg">
+                      <img src="assets/g2.jpg" alt="">
+                      <div class="gh__text">
+                            <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                            <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                            <br>
+                            <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                          </div>
+                    </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g3.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g4.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g5.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g6.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g7.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g8.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g9.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g10.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g11.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g12.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g13.jpg" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+                      <div class="swiper-slide gh__col__lg">
+                        <img src="assets/g14.png" alt="">
+                        <div class="gh__text">
+                              <h2>iKİNCİ EL MINI İÇİN KAÇIRILMAYACAK FIRSAT</h2>
+                              <p>Borusan Otomotiv, müşterilerinin Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, a. kullanmakta olduğu ürünlerinin, üretici tarafından bakanlığın müdahalesine gerek kalmadan gönüllü olarak ücretsiz geri çağrılma ve düzeltilme faaliyetlerini yürütmektedir. Üretici Teknik Departmanı’nın önerileri ile Gönüllü Geri Çağırma işlemlerinin uygulanması otomobilinizin üstün kalite ve yüksek teknik standartlarının devamlılığının sağlanması açısından önem taşır. </p>
+                              <br>
+                              <a href="#" class="btn gh__btn">daha fazla bilgi al</a>
+                            </div>
+                      </div>
+              </div>
+            
+            
+            
+            <div class="swiper-button-prev gh__prev ">   
+              <i class="ri-arrow-left-s-line gh__prev__i"></i>
+            </div>
+            <div class="swiper-button-next gh__next">
+              <i class="ri-arrow-right-s-line gh__next__i"></i>
+            </div>
+            <div class="swppagination">
+                <span class="swp__text__active">1&nbsp;&nbsp;-&nbsp;&nbsp;2&nbsp;</span>
+                <span class="pagination__textend">&nbsp;&nbsp;/&nbsp;&nbsp; 14</span>
+              
+            </div>
+
+          </div>
+          
+      </section>
+
+      
+     
+      
+      <!--
+        HABERLER
+      -->
+        <section class="haber__section">
+          
+            <p class="title__haber">Haberler</p>
+          
+            <div class="swiper swiper-h">
+              <div class="swiper-wrapper swiper__content">
+                <div class="swiper-slide sps__bg">
+                  <div class="img__slider">
+                    <img src="assets/a1.jpg" alt="">
+                  </div>
+                  <div class="text__h">
+                    <i>07 Haziran 2024</i>
+                    <p>Yeni mını countryman e favoured</p>
+                     <div class="hr__section"></div>               
+                  </div>
+                </div>
+                <div class="swiper-slide sps__bg">
+                  <div class="img__slider">
+                    <img src="assets/a2.jpg" alt="">
+                  </div>
+                  <div class="text__h">
+                    <i>07 Haziran 2024</i>
+                    <p>mını john cooper works ve bulldog racing team, 2024 nürburgring 24 sat yarışı'nda zaferi kutluyor.</p>
+                    <div class="hr__section"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide sps__bg">
+                  <div class="img__slider">
+                    <img src="assets/a3.jpg" alt="">
+                  </div>
+                  <div class="text__h">
+                    <i>13 Mayıs 2024</i>
+                    <p>yeni mını cooper 3 kapı.</p>
+                    <div class="hr__section"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide sps__bg">
+                  <div class="img__slider">
+                    <img src="assets/a4.jpg" alt="">
+                  </div>
+                  <div class="text__h">
+                    <i>15 Nisan 2024</i>
+                    <p> tamamen elektrikli mını countryman se all4.</p>
+                    <div class="hr__section"></div>
+                  </div>
+                </div>
+                <div class="swiper-slide sps__bg">
+                  <div class="img__slider">
+                    <img src="assets/a5.jpg" alt="">
+                  </div>
+                  <div class="text__h">
+                    <i>15 Nisan 2024</i>
+                    <p>mını john cooper works countryman.</p>
+                     <div class="hr__section"></div>               
+                  </div>
+                </div>
+                <div class="swiper-slide sps__bg">
+                  <div class="img__slider">
+                    <img src="assets/a6.jpg" alt="">
+                  </div>
+                  <div class="text__h">
+                    <i>13 mart 2024</i>
+                    <p>bmw grubu'nun leıpzıg fabrikası'nda tamamen elektrikli mını countryman üretimine başlandnı.</p>
+                    <div class="hr__section"></div>
+                  </div>
+                </div>
+               
+                
+              </div>
+              <div class="swiper-button-prev swiper__btn__2 swiper__prev">   
+                <i class="ri-arrow-left-s-line swiper__i__prev d-none"></i>
+              </div>
+              <div class="swiper-button-next swiper__btn__2 swiper__buton__next">
+                <i class="ri-arrow-right-s-line swiper__i__next"></i>
+              </div>
+              <div class="swiperpagination">
+                <span class="pagination__text">1&nbsp;&nbsp;-&nbsp;&nbsp;3&nbsp;</span>
+                <span class="pagination__textend"> &nbsp;&nbsp;/&nbsp;&nbsp; 6</span>
+              </div>
+              <div class="haber__butonu">
+                <a href="#" class="btn ">Tüm haberleri görüntüle </a>
+              </div>
+            </div>
+        </section>
+      
+      <!--
+       FOOTER  
+      -->
+       <footer class="footer__rsp ">
+
+        <div class="above__box">
+              <a href="#" class="btn above__btn" id="navbar"><i class="ri-arrow-up-s-line"></i></a>
+        </div>
+        <div class="footer__container">
+
+          <div class="row footer_row ">
+            <div class="col-lg-3 footer__box">
+              <h3>Modeller</h3>
+              <ul>
+                <li><a href="">yeni MINI cooper</a></li>
+                <li><a href="">MINI john cooper works</a></li>
+                <li><a href="">yeni tamamen elektrikli MINI <br> countryman</a></li>
+                <li><a href="">yeni MINI countryman</a></li>
+              </ul>
+              <div class="footer__spacer"></div>
+              <div class="footer__icon">
+                  <h3>Yardım merkezi</h3>
+                  <ul >
+                    <li><a href="">SSS</a></li>
+                    <li><a href="">iletişim</a></li>
+                  </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 footer__box">
+              <h3>Mını online store</h3>
+              <ul>
+                <li><a href="">tasarla</a></li>
+                <li><a href="">test sürüşü</a></li>
+              </ul>
+              <div class="footer__spacer"></div>
+              <div class="footer__icon " style="margin-bottom: 5px;">
+                <h3>Bizi takip et</h3>
+                <ul class="d-flex">
+                  <li><a href=""><i class="bi bi-facebook"></i></a></li>
+                  <li> <a href=""><i class="bi bi-twitter"></i></a></li>
+                  <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                  <li><a href=""><i class="bi bi-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 footer__box">
+              <h3>Satış sonrası</h3>
+              <ul>
+                <li><a href="">online servis randevusu</a></li>
+                <li> <a href="">MINI yol yardımı</a></li>
+                <li><a href="">servis randevunuzu alın</a></li>
+                <li><a href="">yetkili satıcı ve servisler</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 footer__box">
+              <h3>mını dünyası</h3>
+              <ul>
+                <li><a href="">haberler ve etkinlikler</a></li>
+                <li><a href="">elektrikli mobilite</a></li>
+                <li><a href="">güvenilirlik</a></li>
+                <li><a href="">MINI CONNECTED</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       </footer>
+       <!--
+       FOOTER RESPONSİVE ACORDİON
+       -->
+       <div class="accordion accordion__bg d-none" id="accordionExample">
+        <div class="accordion-item accordion__item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Modeller 1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               <ul class="acordion__ul">
+                <li><a href="#">Yeni MINI cooper</a></li>
+                <li><a href="#">MINI john cooper works</a></li>
+                <li><a href="#">yeni tamamen MINI countryman</a></li>
+                <li><a href="#">Yeni MINI countryman</a></li>
+               </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item accordion__item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Modeller 2
+             
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               <ul class="acordion__ul">
+                <li><a href="#">Yeni MINI cooper</a></li>
+                <li><a href="#">MINI john cooper works</a></li>
+                <li><a href="#">yeni tamamen MINI countryman</a></li>
+                <li><a href="#">Yeni MINI countryman</a></li>
+               </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item accordion__item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Modeller 3
+             
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               <ul class="acordion__ul">
+                <li><a href="#">Yeni MINI cooper</a></li>
+                <li><a href="#">MINI john cooper works</a></li>
+                <li><a href="#">yeni tamamen MINI countryman</a></li>
+                <li><a href="#">Yeni MINI countryman</a></li>
+               </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item accordion__item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Modeller 4
+             
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               <ul class="acordion__ul">
+                <li><a href="#">Yeni MINI cooper</a></li>
+                <li><a href="#">MINI john cooper works</a></li>
+                <li><a href="#">yeni tamamen MINI countryman</a></li>
+                <li><a href="#">Yeni MINI countryman</a></li>
+               </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item accordion__item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Modeller 5
+             
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+               <ul class="acordion__ul">
+                <li><a href="#">Yeni MINI cooper</a></li>
+                <li><a href="#">MINI john cooper works</a></li>
+                <li><a href="#">yeni tamamen MINI countryman</a></li>
+                <li><a href="#">Yeni MINI countryman</a></li>
+               </ul>
+            </div>
+          </div>
+        </div>
+        <div class="acordion__icon ">
+          <p>Bizi takip et</p>
+          <ul class="d-flex">
+            <li><a href=""><i class="bi bi-facebook"></i></a></li>
+            <li> <a href=""><i class="bi bi-twitter"></i></a></li>
+            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+            <li><a href=""><i class="bi bi-youtube"></i></a></li>
+          </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+       <div class="container">
+        <hr>
+        <hr>
+        <hr>
+        <ul class="d-flex">
+          <li><a href="">MINI CANLI DESTEK</a></li>
+          <li><a href="">iletişim</a></li>
+          <li><a href="">sss</a></li>
+          <li><a href="">KİŞİSEL VERİLERİN KORUNMASI</a></li>
+          <li><a href="">yasal</a></li>
+          <li><a href="">tanımlama bilgileri</a></li>
+          <li><a href="">hızlı bağlantılar</a></li>
+          
+        </ul>
+        <ul class="d-flex">
+          <li><a href="">GİZLİLİK POLİTİKALARI</a></li>
+          <li><a href="">WLTP</a></li>
+        </ul>
+        <div class="footer__logo">
+          <a href=""><img src="https://www.mini.com.tr/etc.clientlibs/settings/wcm/designs/minidigital-white/images/logo/resources/mini-logo.svg" alt="" width="102px"></a>
+          <span>© MINI 2024</span>
+        </div>
+       </div>
+      
+      
+      
+
+     <script src="assets/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script src="assets/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+</body>
+</html>
