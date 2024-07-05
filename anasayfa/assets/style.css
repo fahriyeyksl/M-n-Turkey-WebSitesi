@@ -43,6 +43,43 @@ body{
   color: rgb(0, 125, 163) !important;
   text-underline-offset: 1.8rem;
   text-decoration-thickness: 5px !important;
+ 
+}
+.toggle__menu {
+    position: fixed;
+    margin-top: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    border-top: 1px solid black;
+    z-index: 1000; 
+}
+.toggle__menu ul{
+    list-style: none;
+    padding-left: 0;
+}
+.toggle__menu li{
+    padding: 20px;
+    margin-inline: 3px;
+}
+.toggle__menu a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.toggle__menu i{
+    font-size: 1.5rem;
+    color: rgb(105, 105, 105);
+}
+.toggle__menu a:hover{
+    color: rgb(0, 125, 163);
+    cursor: pointer;
+}
+.toggle__menu i:hover{
+    color: rgb(0, 125, 163);
+    cursor: pointer;
 }
 .bar{
     height: 7px;
@@ -781,6 +818,12 @@ footer{
 .acordion__icon a:hover{
     color:rgb(0, 125, 163) ;
 }
+.navbar__toggller{
+    border: 0 !important;
+    position: fixed;
+    right: 2px;
+}
+
 @media screen and (min-width: 992px) and (max-width: 1160px) {
     .nav-item a {
         font-size: 12px;
@@ -798,22 +841,12 @@ footer{
     .footer__rsp{
         display: none !important;
     }
-    body{
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; 
-    }
-
+    
 
 
 }
 @media  screen and (max-width:1266px) {
-    body{
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; 
-    }
-
+    
 }
 @media (max-width:768px) {
     .carousel-item-bottom-text{
@@ -864,12 +897,7 @@ footer{
     .accordion__item{
         width: 65% !important;
     }
-    body{
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; 
-    }
-
+    
 }
 @media screen and (max-width:480px) {
     .accordion__item{
@@ -878,14 +906,9 @@ footer{
     .accordion__bg{
         padding-top: 30px;
     }
-    body{
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; 
-    }
-
+    
 }
-@media screen and (min-width:1200px) {
+@media screen and (max-width:1200px) {
     .carousel-img img{
       height: 800px;
     }
@@ -898,12 +921,7 @@ footer{
         height: 400px;
         z-index: 2;
     }
-    body{
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; 
-    }
-
+    
     
 }
 @media screen and (min-width:0px) and (max-width:767px) {
@@ -917,22 +935,44 @@ footer{
     .carousel-item-text h3{
         font-size: 1rem;
     }
-    body{
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; 
-    }
-
-    
 }
 @media screen and (max-width: 992px) {
     .swiper-slide {
         width: 100%;
     }
-    body{
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden; 
+    .icon{
+        display: none;
     }
-
+    
 }
+@media screen and (max-width:1279px) {
+    .navbar__toggller{
+        display: block !important;
+    }
+    .icon{
+        margin-right: 10px;
+    }
+    .navbar-nav{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 990px) {
+    .icon i {
+      font-size: 1rem;
+    }
+    
+    .navbar .container-fluid {
+      display: flex;
+      align-items: center;
+    }
+    .navbar-brand {
+      flex: 1;
+    }
+    .navbar__toggller {
+      margin-left: auto; 
+    }
+    .icon {
+      margin-left: auto;
+    }
+  }
+  

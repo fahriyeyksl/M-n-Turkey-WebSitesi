@@ -27,6 +27,31 @@ window.onload = function() {
         }, 15); // 20 ms bir %5 dolacak
     });
 };
+
+// NAVBAR TOOGLE BASILINCA MENÜ AÇILIMI
+const toggle__btn = document.querySelector(".navbar__toggller");
+
+toggle__btn.addEventListener("click",e=>{
+    const toggle__menu = document.querySelector(".toggle__menu");
+    const toggle__menu__btn =document.querySelector(".toggle_btn_menu");
+    const toggle__close = document.querySelector(".toggle__close");
+    if(toggle__menu.classList.contains("d-none")){
+        toggle__menu.classList.remove("d-none");
+        toggle__close.classList.remove("d-none");
+        toggle__menu__btn.classList.add("d-none");
+    }
+    else{
+       toggle__menu.classList.add("d-none");
+       toggle__close.classList.add("d-none");
+       toggle__menu__btn.classList.remove("d-none");
+    }
+
+})
+
+
+
+
+
 var carouseltext = document.querySelectorAll(".carousel-item-text");
 document.addEventListener('DOMContentLoaded', function () {
     // console.log("sayfa yenilendi");
